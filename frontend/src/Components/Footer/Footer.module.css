@@ -1,0 +1,37 @@
+.footer {
+  background-color: #6c2495;
+  color: white;
+  width: 100%; /* Set the width to 100% */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  width: 100%; /* Set the width to 100% */
+  box-sizing: border-box; /* Include padding and border in the width */
+}
+
+/* Rest of the styles remain the same */
+
+  .contact {
+    flex: 2;
+  }
+  
+  .links,
+  .social {
+    flex: 1;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  

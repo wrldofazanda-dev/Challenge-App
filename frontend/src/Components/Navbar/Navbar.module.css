@@ -1,0 +1,49 @@
+/* Navbar.module.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #6c2495;
+  color: white;
+  padding: 20px 40px; /* Adjust the padding as needed */
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000; /* Add z-index to ensure it's above other content */
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+.link:hover {
+  color: lightgray;
+}
+
+.button {
+  background-color: white;
+  color: #6c2495;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button:hover {
+  background-color: lightgray;
+  color: #6c2495;
+}
